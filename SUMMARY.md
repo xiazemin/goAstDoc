@@ -28,5 +28,6 @@
   * [参数说明](golang-generate/can-shu-shuo-ming.md)
   * [Generate实战](golang-generate/generateshi-zhan.md)
   * [例子](golang-generate/li-zi.md)
+  * [生成代码](golang-generate/sheng-cheng-dai-ma.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
 
