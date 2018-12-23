@@ -10,6 +10,7 @@
     * [内容详情](yu-fa-shu-jie-shi/nei-rong-xiang-qing.md)
     * [语法分析是如何进行的](yu-fa-shu-jie-shi/yu-fa-fen-xi-shi-ru-he-jin-xing-de.md)
     * [parseFile的简化流程](yu-fa-shu-jie-shi/parsefilede-jian-hua-liu-cheng.md)
+    * [整个解析过程简化过程](yu-fa-shu-jie-shi/zheng-ge-jie-xi-guo-cheng-jian-hua-guo-cheng.md)
   * [goast-viewer](goast-viewer.md)
   * [goreporter](goreporter.md)
 * [Golang Generate](golang-generate.md)
