@@ -45,5 +45,11 @@ func (v visitor) Visit(n ast.Node) ast.Visitor {
 }
 ```
 
+运行这个程序我们会得到没有树结构的节点序列。那些 nil 节点是什么？在 ast.Walk 的文档中可以了解我们返回 visitor 的时候会继续找他的下级节点，如果没有下级节点将会返回 nil。
+
+
+
+知道这个特性后我们就可以像树那样打印这个结果。
+
 
 
