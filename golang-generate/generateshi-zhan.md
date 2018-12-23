@@ -8,9 +8,7 @@
 packageuser import"fmt"func(c Status) String() string{ switchc { caseOffline: return"Offline"caseOnline: return"Online"caseDisable: return"Disable"caseDeleted: return"Deleted"} returnfmt.Sprintf( "Status(%d)", c)}
 ```
 
- 业务逻辑
-
-该如何实现呢？实际我们需要获得三项:
+业务逻辑该如何实现呢？实际我们需要获得三项:
 
 包名：user，该文件将存放在当前目录，需要知晓包名称
 
