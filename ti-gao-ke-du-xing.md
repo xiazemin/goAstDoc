@@ -21,7 +21,7 @@ go run main.go
 
 \*.File{Doc:\(\*ast.CommentGroup\)\(nil\), Package:1, Name:\(\*ast.Ident\)\(0xc42000a060\), Decls:\[\]ast.Decl{\(\*ast.GenDecl\)\(0xc420054100\)}, Scope:\(\*ast.Scope\)\(0xc42000e210\), Imports:\[\]\*ast.ImportSpec\(nil\), Unresolved:\[\]\*ast.Ident\(nil\), Comments:\[\]\*ast.CommentGroup\(nil\)}
 
-看起来可以了但是不易读，可以使用 github.com/davecgh/go-spew/spew 来让输出更易读：
+看起来可以了但是不易读，可以使用 github.com/davecgh/go-spew/spew 来让输出更易读：https://github.com/davecgh/go-spew/
 
 spew.Dump\(f\)
 
