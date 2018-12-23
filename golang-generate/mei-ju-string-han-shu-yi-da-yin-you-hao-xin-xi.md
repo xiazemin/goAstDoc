@@ -2,43 +2,105 @@
 
 自动生成如下代码：
 
-
-
-
-
 package user
-
-
 
 import "fmt"
 
-
-
 func \(c Status\) String\(\) string {
 
-	switch c {
+```
+switch c {
 
-	case Offline:
+case Offline:
 
-		return "Offline"
+    return "Offline"
 
-	case Online:
+case Online:
 
-		return "Online"
+    return "Online"
 
-	case Disable:
+case Disable:
 
-		return "Disable"
+    return "Disable"
 
-	case Deleted:
+case Deleted:
 
-		return "Deleted"
-
-	}
-
-	return fmt.Sprintf\("Status\(%d\)", c\)
+    return "Deleted"
 
 }
+
+return fmt.Sprintf\("Status\(%d\)", c\)
+```
+
+}业务逻辑
+
+该如何实现呢？实际我们需要获得三项:
+
+
+
+包名：user，该文件将存放在当前目录，需要知晓包名称
+
+类型名：Status，参数传递
+
+所有同类型var: Offline，Online，Disable，Deleted
+
+再生成代码后将其保存到当前目录，同时进行gofmt。
+
+
+
+具体实现
+
+1.通过环境变量获取包名称
+
+
+
+
+
+pkgName = os.Getenv\("GOPACKAGE"\)
+
+1
+
+pkgName = os.Getenv\("GOPACKAGE"\)
+
+2.获取当前目录包信息 这里利用Go内置的库go/build解析目录，则可以获得该文件夹下包信息。
+
+
+
+
+
+var err error
+
+pkgInfo, err = build.ImportDir\(".", 0\)
+
+if err != nil {
+
+	log.Fatal\(err\)
+
+}
+
+1
+
+2
+
+3
+
+4
+
+5
+
+var err error
+
+pkgInfo, err = build.ImportDir\(".", 0\)
+
+if err != nil {
+
+	log.Fatal\(err\)
+
+}
+
+至此便能获得目录下所有 Go文件 pkgInfo.GoFiles，用于语法树解析。
+
+
 
 
 
