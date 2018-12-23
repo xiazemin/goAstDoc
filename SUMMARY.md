@@ -5,4 +5,5 @@
     * [语法树的生成过程](yu-fa-shu-jie-shi/yu-fa-shu-de-sheng-cheng-guo-cheng.md)
     * [parse是解析器的结构体](yu-fa-shu-jie-shi/parseshi-jie-xi-qi-de-jie-gou-ti.md)
     * [具体的解析过程](yu-fa-shu-jie-shi/ju-ti-de-jie-xi-guo-cheng.md)
+    * [AST的每种类型结构](yu-fa-shu-jie-shi/astde-mei-zhong-lei-xing-jie-gou.md)
 
