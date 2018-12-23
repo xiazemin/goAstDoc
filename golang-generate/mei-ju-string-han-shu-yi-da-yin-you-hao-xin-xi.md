@@ -80,3 +80,7 @@ log.Fatal\(err\)
 
 至此便能获得目录下所有 Go文件 pkgInfo.GoFiles，用于语法树解析。
 
+3.解析 Go 文件语法树，提取Status相关信息。 需要注意的是，我们约定所定义的枚举信息实际应该全部是 Const。需从语法树中 提取出所有的 Const，并判断类型是否符合条件。
+
+这里利用的是 Go 的语法树库 go/ast\(abstract syntax tree\) 和解析库 go/parser，语法树是按语句块 \(\) 形成树结构。从中过滤 const 语句块
+
