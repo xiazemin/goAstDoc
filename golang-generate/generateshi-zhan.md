@@ -2,11 +2,13 @@
 //go:generate myenumstr -type Status
 ```
 
+自动生成如下代码：
 
+```
+packageuser import"fmt"func(c Status) String() string{ switchc { caseOffline: return"Offline"caseOnline: return"Online"caseDisable: return"Disable"caseDeleted: return"Deleted"} returnfmt.Sprintf( "Status(%d)", c)}
+```
 
-自动生成如下代码：\`\`
-
-packageuser import"fmt"func\(c Status\) String\(\) string{ switchc { caseOffline: return"Offline"caseOnline: return"Online"caseDisable: return"Disable"caseDeleted: return"Deleted"} returnfmt.Sprintf\( "Status\(%d\)", c\)}\`\` 业务逻辑
+ 业务逻辑
 
 该如何实现呢？实际我们需要获得三项:
 
