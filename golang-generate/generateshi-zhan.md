@@ -2,7 +2,9 @@
 
 
 
-自动生成如下代码： 业务逻辑
+自动生成如下代码：``
+
+packageuser import"fmt"func\(c Status\) String\(\) string{ switchc { caseOffline: return"Offline"caseOnline: return"Online"caseDisable: return"Disable"caseDeleted: return"Deleted"} returnfmt.Sprintf\( "Status\(%d\)", c\)}`` 业务逻辑
 
 
 
