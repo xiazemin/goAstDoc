@@ -4,11 +4,9 @@
 
 [https://github.com/fatih/structtag](https://github.com/fatih/structtag)
 
-https://github.com/fatih/gomodifytags
+[https://github.com/fatih/gomodifytags](https://github.com/fatih/gomodifytags)
 
-https://github.com/fatih/structtag
-
-
+[https://github.com/fatih/structtag](https://github.com/fatih/structtag)
 
 To do that we’re going to use the go/parser package to parse the file to obtain the AST \(of the whole file\) and then use the go/ast package to walk down the tree \(we could do it manually as well, but that’s the topic of another blog post\). Below you can see a fully working example:
 
@@ -46,5 +44,5 @@ To do that we’re going to use the go/parser package to parse the file to obtai
         })
     }
 
-
+http://yager.io/programming/go.html
 
