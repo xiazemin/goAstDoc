@@ -47,7 +47,15 @@ var err errorpkgInfo, err = build.ImportDir( ".", 0)
 
 这里利用的是Go的语法树库go/ast\(abstract syntax tree\)和解析库go/parser，语法树是按语句块\(\)形成树结构。从中过滤const语句块
 
-fset :=token.NewFileSet\(\) //解析go文件f, err :=parser.ParseFile\(fset, gofile, nil, 0\) iferr !=nil{ log.Fatal\(err\)} //遍历每个树节点ast.Inspect\(f, func\(n ast.Node\) bool{ decl, ok :=n.\( \*ast.GenDecl\) if!ok \|\|decl.Tok !=token.CONST { returntrue} //...}
+```
+fset :=token.NewFileSet() //解析go文件
+f, err :=parser.ParseFile(fset, gofile, nil, 0) 
+iferr !=nil{ log.Fatal(err)} //遍历每个树节点
+ast.Inspect(f, func(n ast.Node) bool{
+ decl, ok :=n.( *ast.GenDecl) 
+ if!ok ||decl.Tok !=token.CONST { returntrue} //...
+ }
+```
 
 再循环const语句块中最小部分：
 
