@@ -30,5 +30,6 @@
   * [例子](golang-generate/li-zi.md)
   * [生成代码](golang-generate/sheng-cheng-dai-ma.md)
   * [go generate](golang-generate/go-generate.md)
+  * [Generate 命令说明](golang-generate/generate-ming-ling-shuo-ming.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
 
