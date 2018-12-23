@@ -25,3 +25,11 @@
 
 解析参数和返回值就是解析\(filed,filed\)这样的格式,每个filed是indent type的token,最后构造成函数签名.然后来到parseBody,这个函数其实就是解析了左右花括号,然后向下开始解析Statement列表,类似于body -&gt; { stmt\_list },然后进入stmt\_list的解析,不断地解析statement.
 
+```
+for p.tok != token.CASE && p.tok != token.DEFAULT && p.tok != token.RBRACE && p.tok != token.EOF {
+                list = append(list, p.parseStmt())
+        }
+```
+
+
+
