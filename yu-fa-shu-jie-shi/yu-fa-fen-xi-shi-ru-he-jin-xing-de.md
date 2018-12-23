@@ -55,3 +55,25 @@ type parser struct {
 
 gcc和Go都没用自动生成的解析器,也就是手写个几千行代码的事,所以为了更好的掌握编译器的细节,都选择了手写最简单的递归向下的方式.
 
+通过init初始化scanner等.
+
+```
+func (p *parser) init(fset *token.FileSet, filename string, src []byte, mode Mode) {
+        p.file = fset.AddFile(filename, -1, len(src))
+        var m scanner.Mode
+        if mode&ParseComments != 0 {
+                m = scanner.ScanComments
+        }
+        // 错误处理函数是在错误列表中添加错误.
+        eh := func(pos token.Position, msg string) { p.errors.Add(pos, msg) }
+        p.scanner.Init(p.file, src, eh, m)
+
+        p.mode = mode
+        p.trace = mode&Trace != 0 // for convenience (p.trace is used frequently)
+
+        p.next()
+}
+```
+
+
+
