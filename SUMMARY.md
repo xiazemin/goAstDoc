@@ -11,4 +11,5 @@
   * [goast-viewer](goast-viewer.md)
   * [goreporter](goreporter.md)
 * [Golang Generate](golang-generate.md)
+  * [参数说明](golang-generate/can-shu-shuo-ming.md)
 
