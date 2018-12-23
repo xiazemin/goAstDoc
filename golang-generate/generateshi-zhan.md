@@ -122,7 +122,6 @@ var\( typeNames = flag.String\( "type", "", ""\)\)types :=strings.Split\( \*type
 
 
 
-funcgenString\(types map\[ string\]\[\] string\) \[\] byte{ conststrTmp = \`package {{.pkg}}import "fmt"{{range $typ,$consts :=.types}}func \(c {{$typ}}\) String\(\) string{switch c { {{range $consts}}case {{.}}:return "{{.}}"{{end}}}return fmt.Sprintf\("Status\(%d\)", c\) }{{end}}\`pkgName :=os.Getenv\( "GOPACKAGE"\) ifpkgName ==""{ pkgName = pkgInfo.Name } data :=map\[ string\] interface{}{ "pkg": pkgName, "types": types, } //利用模板库，生成代码文件t, err :=template.New\( ""\).Parse\(strTmp\) iferr !=nil{ log.Fatal\(err\) } buff :=bytes.NewBufferString\( ""\) err = t.Execute\(buff, data\) iferr !=nil{ log.Fatal\(err\) } //进行格式化src, err :=format.Source\(buff.Bytes\(\)\) iferr !=nil{ log.Fatal\(err\) } returnsrc}
 
 
 
