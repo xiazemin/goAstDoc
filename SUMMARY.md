@@ -15,6 +15,7 @@
     * [parseSimpleStmt\(\)的简化流程](yu-fa-shu-jie-shi/parsesimplestmtde-jian-hua-liu-cheng.md)
     * [例子](yu-fa-shu-jie-shi/li-zi.md)
     * [结果](yu-fa-shu-jie-shi/jie-guo.md)
+    * [syncPos错误的同步位置](yu-fa-shu-jie-shi/syncposcuo-wu-de-tong-bu-wei-zhi.md)
   * [goast-viewer](goast-viewer.md)
   * [goreporter](goreporter.md)
 * [Golang Generate](golang-generate.md)
