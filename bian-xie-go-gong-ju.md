@@ -2,6 +2,10 @@
 
 [https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
 
+https://github.com/fatih/structtag
+
+
+
 To do that we’re going to use the go/parser package to parse the file to obtain the AST \(of the whole file\) and then use the go/ast package to walk down the tree \(we could do it manually as well, but that’s the topic of another blog post\). Below you can see a fully working example:
 
     package main
