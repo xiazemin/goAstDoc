@@ -46,5 +46,9 @@
         }
 ```
 
+看一下parseDecl主要是根据类型的不同调用不同的解析函数,parseValueSpec解析Value类型,parseTypeSpec解析Type类型,parseFuncDecl解析函数.
 
+解析定义和解析类型的都是解析了,类似于var\|type \( ident valueSpec\|typeSpec\)的token结构.因为parseFuncDecl里面也会解析这些内容,所以直接从函数解析来看也可以.
+
+因为外一层的top scope其实就是相当于一个抽象的函数作用域而已,这样是为什么len和new这样的内嵌函数在函数内是可以做变量名的原因,因为可以在子作用域覆盖top作用域.
 
