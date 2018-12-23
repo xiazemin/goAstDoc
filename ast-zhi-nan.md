@@ -61,5 +61,16 @@ func (v visitor) Visit(n ast.Node) ast.Visitor {
 }
 ```
 
+程序的其他部分没有改变，执行以后我们会得到以下输出：
+
+```
+*ast.File
+    *ast.Ident
+    *ast.GenDecl
+        *ast.ValueSpec
+            *ast.Ident
+            *ast.BasicLit
+```
+
 
 
