@@ -1,5 +1,15 @@
+
+
+```
 //go:generate myenumstr -type Status
 
+```
+
+
+
+```
+
+```
 
 
 自动生成如下代码：``
