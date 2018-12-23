@@ -20,5 +20,15 @@ func main() {
 }
 ```
 
+这段代码可以编译通过但是在运行时会报错：
+
+
+
+1:1: expected 'package', found 'var' \(and 1 more errors\)
+
+为了解析这个我们叫做 ParseFile 的声明，我们需要给出一个完整的 go 源文件格式（以 package 作为源文件开头）。
+
+
+
 
 
