@@ -8,5 +8,11 @@ $ make install
 
 $goast-viewer
 
-http://localhost:7650/
+[http://localhost:7650/](http://localhost:7650/)
+
+线上工具：
+
+http://goast.yuroyoro.net/?sourcefile=cron\_test.go&code=
+
+
 
