@@ -120,13 +120,13 @@ gen\_columns是自己在项目中遇到问题所给出的解决办法, 第一版
 
 让我们用Go创造更多生成代码的工具吧.
 
-
-
 其它例子
 
 impl 指定一个接口, 生成接口所需方法
 
-https://github.com/josharian/impl
+[https://github.com/josharian/impl](https://github.com/josharian/impl)
 
 goa 一套用于写web service的DSL
+
+https://goa.design/
 
