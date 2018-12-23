@@ -36,7 +36,10 @@ pkgName = os.Getenv\( "GOPACKAGE"\)
 
 2.获取当前目录包信息 这里利用Go内置的库go/build解析目录，则可以获得该文件夹下包信息。
 
-varerr errorpkgInfo, err = build.ImportDir\( ".", 0\) iferr !=nil{ log.Fatal\(err\)}
+```
+var err errorpkgInfo, err = build.ImportDir( ".", 0)
+ iferr !=nil{ log.Fatal(err)}
+```
 
 至此便能获得目录下所有Go文件pkgInfo.GoFiles，用于语法树解析。
 
