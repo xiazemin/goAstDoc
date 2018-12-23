@@ -8,3 +8,5 @@ $ make install
 
 $goast-viewer
 
+http://localhost:7650/
+
