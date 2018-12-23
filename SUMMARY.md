@@ -31,5 +31,7 @@
   * [生成代码](golang-generate/sheng-cheng-dai-ma.md)
   * [go generate](golang-generate/go-generate.md)
   * [Generate 命令说明](golang-generate/generate-ming-ling-shuo-ming.md)
+  * [Generate实战](golang-generate/generateshi-zhan.md)
+  * [枚举String函数以打印友好信息](golang-generate/mei-ju-string-han-shu-yi-da-yin-you-hao-xin-xi.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
 
