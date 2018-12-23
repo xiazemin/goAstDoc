@@ -12,6 +12,7 @@
     * [parseFile的简化流程](yu-fa-shu-jie-shi/parsefilede-jian-hua-liu-cheng.md)
     * [整个解析过程简化过程](yu-fa-shu-jie-shi/zheng-ge-jie-xi-guo-cheng-jian-hua-guo-cheng.md)
     * [parseStmt](yu-fa-shu-jie-shi/parsestmt.md)
+    * [parseSimpleStmt\(\)的简化流程](yu-fa-shu-jie-shi/parsesimplestmtde-jian-hua-liu-cheng.md)
   * [goast-viewer](goast-viewer.md)
   * [goreporter](goreporter.md)
 * [Golang Generate](golang-generate.md)
