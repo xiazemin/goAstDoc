@@ -2,6 +2,10 @@
 
 [https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
 
+[https://github.com/fatih/structtag](https://github.com/fatih/structtag)
+
+https://github.com/fatih/gomodifytags
+
 https://github.com/fatih/structtag
 
 
