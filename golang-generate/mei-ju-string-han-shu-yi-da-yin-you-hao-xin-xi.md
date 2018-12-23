@@ -84,3 +84,22 @@ log.Fatal\(err\)
 
 这里利用的是 Go 的语法树库 go/ast\(abstract syntax tree\) 和解析库 go/parser，语法树是按语句块 \(\) 形成树结构。从中过滤 const 语句块
 
+```
+fset := token.NewFileSet()
+//解析go文件
+f, err := parser.ParseFile(fset, gofile, nil, 0)
+if err != nil {
+	log.Fatal(err)
+}
+//遍历每个树节点
+ast.Inspect(f, func(n ast.Node) bool {
+	decl, ok := n.(*ast.GenDecl)
+	if !ok || decl.Tok != token.CONST {
+		return true
+	}
+	//...
+}
+```
+
+
+
