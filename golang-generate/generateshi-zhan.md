@@ -71,7 +71,9 @@ vspec :=spec.\( \*ast.ValueSpec\) ifvspec.Type ==nil&&len\(vspec.Values\) &gt; 0
 
 但我们只需要获得符合要求的Type，获得符合要求的Const信息：
 
-consts, ok :=typesMap\[typ\] if!ok { continue} for\_, n :=rangevspec.Names { consts = append\(consts, n.Name\)}typesMap\[typ\] = consts
+```
+consts, ok :=typesMap[typ] if!ok { continue} for_, n :=rangevspec.Names { consts = append(consts, n.Name)}typesMap[typ] = consts
+```
 
 这里的typesMap是根据程序入参建立：
 
@@ -80,6 +82,26 @@ var\( typeNames = flag.String\( "type", "", ""\)\)types :=strings.Split\( \*type
 4.根据收集的Const，生成String函数
 
 使用模板生成内容，同时进行gofmt
+
+    func gen String(types map[ string][] string) [] byte{ 
+    conststrTmp = `package {{.pkg}}
+    import "fmt"{{range $typ,$consts :=.types}}
+    func (c {{$typ}}) String()
+     string{switch c { {{range $consts}}case {{.}}:
+     return "{{.}}"{{end}}}
+     return fmt.Sprintf("Status(%d)", c) }
+     {{end}}`
+     pkgName :=os.Getenv( "GOPACKAGE") 
+     ifpkgName ==""{ pkgName = pkgInfo.Name } 
+     data :=map[ string] interface{}{ "pkg": pkgName, "types": types, } //利用模板库，生成代码文件
+     t, err :=template.New( "").Parse(strTmp) 
+     iferr !=nil{ log.Fatal(err) } 
+     buff :=bytes.NewBufferString( "") 
+     err = t.Execute(buff, data) 
+     iferr !=nil{ log.Fatal(err) } //进行格式化
+     src, err :=format.Source(buff.Bytes())
+      iferr !=nil{ log.Fatal(err) } 
+      returnsrc}
 
 5.保存代码到文件 将文件直接保存到当前目录下，文件名已”\_string”结尾
 
