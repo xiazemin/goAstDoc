@@ -22,6 +22,7 @@
   * [全局变量和局部变量](quan-ju-bian-liang-he-ju-bu-bian-liang.md)
   * [使用 go/scanner](shi-yong-go-scanner.md)
   * [提高可读性](ti-gao-ke-du-xing.md)
+  * [AST 指南](ast-zhi-nan.md)
 * [Golang Generate](golang-generate.md)
   * [参数说明](golang-generate/can-shu-shuo-ming.md)
   * [Generate实战](golang-generate/generateshi-zhan.md)
