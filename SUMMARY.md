@@ -41,4 +41,5 @@
   * [语言设计](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-she-ji.md)
   * [语言规格说明书](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-gui-ge-shuo-ming-shu.md)
   * [标识符](shi-yong-go-kai-fa-bian-yi-qi/biao-shi-fu.md)
+  * [扫描](shi-yong-go-kai-fa-bian-yi-qi/sao-miao.md)
 
