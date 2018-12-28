@@ -84,3 +84,7 @@ gc 包中包含一个继承自（早期）C 语言实现的版本的 AST 定义�
 
 要深入了解 SSA 包的工作方式，包括它的环节和规则，请转到[cmd/compile/internal/ssa/README.md](https://github.com/golang/go/blob/master/src/cmd/compile/internal/ssa/README.md)。
 
+https://linux.cn/article-9977-1.html
+
+https://github.com/golang/go/tree/master/src/cmd/compile
+
