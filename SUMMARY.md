@@ -40,4 +40,5 @@
   * [编译器设计概览](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-qi-she-ji-gai-lan.md)
   * [语言设计](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-she-ji.md)
   * [语言规格说明书](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-gui-ge-shuo-ming-shu.md)
+  * [标识符](shi-yong-go-kai-fa-bian-yi-qi/biao-shi-fu.md)
 
