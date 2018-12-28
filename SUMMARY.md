@@ -43,4 +43,5 @@
   * [标识符](shi-yong-go-kai-fa-bian-yi-qi/biao-shi-fu.md)
   * [扫描](shi-yong-go-kai-fa-bian-yi-qi/sao-miao.md)
   * [抽象语法树](shi-yong-go-kai-fa-bian-yi-qi/chou-xiang-yu-fa-shu.md)
+  * [解析](shi-yong-go-kai-fa-bian-yi-qi/jie-xi.md)
 
