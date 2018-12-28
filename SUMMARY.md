@@ -35,6 +35,7 @@
   * [枚举String函数以打印友好信息](golang-generate/mei-ju-string-han-shu-yi-da-yin-you-hao-xin-xi.md)
   * [go generate原理](golang-generate/go-generateyuan-li.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
+  * [修改Go语言\(golang\)编译器源代码让它支持UTF-8 BOM](bian-xie-go-gong-ju/xiu-gai-go-yu-8a0028-golang-bian-yi-qi-yuan-dai-ma-rang-ta-zhi-chi-utf-8-bom.md)
 * [使用 Go 开发编译器](shi-yong-go-kai-fa-bian-yi-qi.md)
   * [编译、转译和解释](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-3001-zhuan-yi-he-jie-shi.md)
   * [编译器设计概览](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-qi-she-ji-gai-lan.md)
