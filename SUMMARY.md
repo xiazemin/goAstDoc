@@ -36,4 +36,5 @@
   * [go generate原理](golang-generate/go-generateyuan-li.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
 * [使用 Go 开发编译器](shi-yong-go-kai-fa-bian-yi-qi.md)
+  * [编译、转译和解释](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-3001-zhuan-yi-he-jie-shi.md)
 
