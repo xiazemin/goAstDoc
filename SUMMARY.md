@@ -35,4 +35,5 @@
   * [枚举String函数以打印友好信息](golang-generate/mei-ju-string-han-shu-yi-da-yin-you-hao-xin-xi.md)
   * [go generate原理](golang-generate/go-generateyuan-li.md)
 * [编写go 工具](bian-xie-go-gong-ju.md)
+* [使用 Go 开发编译器](shi-yong-go-kai-fa-bian-yi-qi.md)
 
