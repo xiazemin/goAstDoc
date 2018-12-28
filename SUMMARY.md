@@ -39,4 +39,5 @@
   * [编译、转译和解释](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-3001-zhuan-yi-he-jie-shi.md)
   * [编译器设计概览](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-qi-she-ji-gai-lan.md)
   * [语言设计](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-she-ji.md)
+  * [语言规格说明书](shi-yong-go-kai-fa-bian-yi-qi/yu-yan-gui-ge-shuo-ming-shu.md)
 
