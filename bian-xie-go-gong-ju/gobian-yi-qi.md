@@ -14,3 +14,13 @@ asmins
 
 doasm
 
+https://golang.org
+
+https://golang.org/doc/install/source
+
+https://golang.org/doc/gdb
+
+http://lldb.llvm.org/tutorial.html
+
+http://legendtkl.com/archives
+
