@@ -37,6 +37,7 @@
 * [编写go 工具](bian-xie-go-gong-ju.md)
   * [修改Go语言\(golang\)编译器源代码让它支持UTF-8 BOM](bian-xie-go-gong-ju/xiu-gai-go-yu-8a0028-golang-bian-yi-qi-yuan-dai-ma-rang-ta-zhi-chi-utf-8-bom.md)
   * [go编译器](bian-xie-go-gong-ju/gobian-yi-qi.md)
+  * [Go 编译器介绍](bian-xie-go-gong-ju/go-bian-yi-qi-jie-shao.md)
 * [使用 Go 开发编译器](shi-yong-go-kai-fa-bian-yi-qi.md)
   * [编译、转译和解释](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-3001-zhuan-yi-he-jie-shi.md)
   * [编译器设计概览](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-qi-she-ji-gai-lan.md)
