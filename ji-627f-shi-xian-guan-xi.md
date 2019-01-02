@@ -1,0 +1,67 @@
+我们这里举的例子相对真实场景下的代码来说还要简单的多，下面是 ast 包中的结构体们的一个继承/实现关系：
+
+```
+Node
+  Decl
+    *BadDecl
+    *FuncDecl
+    *GenDecl
+  Expr
+    *ArrayType
+    *BadExpr
+    *BasicLit
+    *BinaryExpr
+    *CallExpr
+    *ChanType
+    *CompositeLit
+    *Ellipsis
+    *FuncLit
+    *FuncType
+    *Ident
+    *IndexExpr
+    *InterfaceType
+    *KeyValueExpr
+    *MapType
+    *ParenExpr
+    *SelectorExpr
+    *SliceExpr
+    *StarExpr
+    *StructType
+    *TypeAssertExpr
+    *UnaryExpr
+  Spec
+    *ImportSpec
+    *TypeSpec
+    *ValueSpec
+  Stmt
+    *AssignStmt
+    *BadStmt
+    *BlockStmt
+    *BranchStmt
+    *CaseClause
+    *CommClause
+    *DeclStmt
+    *DeferStmt
+    *EmptyStmt
+    *ExprStmt
+    *ForStmt
+    *GoStmt
+    *IfStmt
+    *IncDecStmt
+    *LabeledStmt
+    *RangeStmt
+    *ReturnStmt
+    *SelectStmt
+    *SendStmt
+    *SwitchStmt
+    *TypeSwitchStmt
+  *Comment
+  *CommentGroup
+  *Field
+  *FieldList
+  *File
+  *Package
+```
+
+
+
