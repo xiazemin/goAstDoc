@@ -1,10 +1,6 @@
 结构体的标签值（内容，如 `json: "foo"`）**不是官方规范的一部分**，但是 `reflect` 包定义了一个非官方规范的格式标准，这个格式同样被 `stdlib` 包（如 `encoding/json`）所使用。它通过 [reflect.StructTag](https://link.juejin.im?target=https%3A%2F%2Fgolang.org%2Fpkg%2Freflect%2F%23StructTag) 类型定义：
 
-
-
 ![](https://user-gold-cdn.xitu.io/2017/10/27/1e4ae2ae020e5ccf540168ac3a00f32f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
 
 这个定义有点长，不是很容易让人理解。我们尝试分解一下它：
 
@@ -37,13 +33,9 @@
 
 总的来说：
 
-
-
 ![](https://user-gold-cdn.xitu.io/2017/10/27/b3f44b23f5c05d3b361351e45ceb6e19?imageView2/0/w/1280/h/960/format/webp/ignore-error/1 "结构体标签定义有许多隐藏的细节")
 
 结构体标签定义有许多隐藏的细节
-
-
 
 我们已经了解了什么是结构体标签，我们可以根据需要轻松地修改它。 现在的问题是，我们如何解析它才能使我们能够轻松进行修改？幸运的是，`reflect.StructTag` 包含一个方法，它允许我们进行解析并返回指定键的值。以下是一个示例：
 
@@ -102,23 +94,5 @@ blue gopher
   **构建新的结构体标签**
   。
 
-  
 
-
-作者：Oopsguy
-
-  
-
-
-链接：https://juejin.im/post/59f29894f265da43333da41e
-
-  
-
-
-来源：掘金
-
-  
-
-
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
