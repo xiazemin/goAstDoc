@@ -63,4 +63,5 @@
   * [解析基本表达式](llvmkai-fa-xin-yu-yan/jie-xi-ji-ben-biao-da-shi.md)
   * [解析二元表达式](llvmkai-fa-xin-yu-yan/jie-xi-er-yuan-biao-da-shi.md)
   * [解析其余结构](llvmkai-fa-xin-yu-yan/jie-xi-qi-yu-jie-gou.md)
+  * [引导代码](llvmkai-fa-xin-yu-yan/yin-dao-dai-ma.md)
 
