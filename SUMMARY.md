@@ -68,4 +68,5 @@
   * [LLVM IR代码生成](llvmkai-fa-xin-yu-yan/llvm-irdai-ma-sheng-cheng.md)
   * [表达式代码生成](llvmkai-fa-xin-yu-yan/biao-da-shi-dai-ma-sheng-cheng.md)
   * [函数的代码生成](llvmkai-fa-xin-yu-yan/han-shu-de-dai-ma-sheng-cheng.md)
+  * [IR完整代码](llvmkai-fa-xin-yu-yan/irwan-zheng-dai-ma.md)
 
