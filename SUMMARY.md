@@ -57,4 +57,5 @@
   * [编译到 C](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-dao-c.md)
 * [LLVM开发新语言](llvmkai-fa-xin-yu-yan.md)
   * [初级语言](llvmkai-fa-xin-yu-yan/chu-ji-yu-yan.md)
+  * 词法分析器
 
