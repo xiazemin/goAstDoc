@@ -29,6 +29,7 @@
   * [ParseFile](parsefile.md)
   * [继承/实现关系](ji-627f-shi-xian-guan-xi.md)
   * [应用](ying-yong.md)
+  * [对抽象语法树（AST）求值](dui-chou-xiang-yu-fa-shu-ff08-ast-ff09-qiu-zhi.md)
 * [Golang Generate](golang-generate.md)
   * [参数说明](golang-generate/can-shu-shuo-ming.md)
   * [Generate实战](golang-generate/generateshi-zhan.md)
