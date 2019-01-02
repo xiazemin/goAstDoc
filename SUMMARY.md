@@ -66,4 +66,5 @@
   * [引导代码](llvmkai-fa-xin-yu-yan/yin-dao-dai-ma.md)
   * [完整源码](llvmkai-fa-xin-yu-yan/wan-zheng-yuan-ma.md)
   * [LLVM IR代码生成](llvmkai-fa-xin-yu-yan/llvm-irdai-ma-sheng-cheng.md)
+  * [表达式代码生成](llvmkai-fa-xin-yu-yan/biao-da-shi-dai-ma-sheng-cheng.md)
 
