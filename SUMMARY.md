@@ -55,4 +55,5 @@
   * [抽象语法树](shi-yong-go-kai-fa-bian-yi-qi/chou-xiang-yu-fa-shu.md)
   * [解析](shi-yong-go-kai-fa-bian-yi-qi/jie-xi.md)
   * [编译到 C](shi-yong-go-kai-fa-bian-yi-qi/bian-yi-dao-c.md)
+* [LLVM开发新语言](llvmkai-fa-xin-yu-yan.md)
 
