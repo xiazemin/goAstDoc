@@ -25,6 +25,7 @@
   * [AST 指南](ast-zhi-nan.md)
   * [每种标识符最常用的名称](mei-zhong-biao-shi-fu-zui-chang-yong-de-ming-cheng.md)
   * [ast](ast.md)
+  * [ast example](ast-example.md)
 * [Golang Generate](golang-generate.md)
   * [参数说明](golang-generate/can-shu-shuo-ming.md)
   * [Generate实战](golang-generate/generateshi-zhan.md)
