@@ -28,6 +28,7 @@
   * [ast example](ast-example.md)
   * [ParseFile](parsefile.md)
   * [继承/实现关系](ji-627f-shi-xian-guan-xi.md)
+  * [应用](ying-yong.md)
 * [Golang Generate](golang-generate.md)
   * [参数说明](golang-generate/can-shu-shuo-ming.md)
   * [Generate实战](golang-generate/generateshi-zhan.md)
