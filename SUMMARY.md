@@ -79,4 +79,5 @@
   * [改变结构体标签](bian-xie-yi-ge-go-gong-ju/gai-bian-jie-gou-ti-biao-qian.md)
   * [通过 AST取标签](bian-xie-yi-ge-go-gong-ju/tong-guo-ast-qu-biao-qian.md)
   * [建我们的工具](bian-xie-yi-ge-go-gong-ju/jian-wo-men-de-gong-ju.md)
+  * [偏移量和结构体名称选择](bian-xie-yi-ge-go-gong-ju/pian-yi-liang-he-jie-gou-ti-ming-cheng-xuan-ze.md)
 
