@@ -76,4 +76,5 @@
   * 结论及LLVM相关的其他有用内容
 * [编写一个 Go 工具](bian-xie-yi-ge-go-gong-ju.md)
   * [结构体的标签值](bian-xie-yi-ge-go-gong-ju/jie-gou-ti-de-biao-qian-zhi.md)
+  * [改变结构体标签](bian-xie-yi-ge-go-gong-ju/gai-bian-jie-gou-ti-biao-qian.md)
 
