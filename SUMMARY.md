@@ -78,4 +78,5 @@
   * [结构体的标签值](bian-xie-yi-ge-go-gong-ju/jie-gou-ti-de-biao-qian-zhi.md)
   * [改变结构体标签](bian-xie-yi-ge-go-gong-ju/gai-bian-jie-gou-ti-biao-qian.md)
   * [通过 AST取标签](bian-xie-yi-ge-go-gong-ju/tong-guo-ast-qu-biao-qian.md)
+  * [建我们的工具](bian-xie-yi-ge-go-gong-ju/jian-wo-men-de-gong-ju.md)
 
