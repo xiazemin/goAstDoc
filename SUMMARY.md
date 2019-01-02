@@ -75,4 +75,5 @@
   * 对语言进行扩展：可变变量
   * 结论及LLVM相关的其他有用内容
 * [编写一个 Go 工具](bian-xie-yi-ge-go-gong-ju.md)
+  * [结构体的标签值](bian-xie-yi-ge-go-gong-ju/jie-gou-ti-de-biao-qian-zhi.md)
 
