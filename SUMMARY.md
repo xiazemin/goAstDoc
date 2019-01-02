@@ -58,4 +58,5 @@
 * [LLVM开发新语言](llvmkai-fa-xin-yu-yan.md)
   * [初级语言](llvmkai-fa-xin-yu-yan/chu-ji-yu-yan.md)
   * [词法分析器](llvmkai-fa-xin-yu-yan/ci-fa-fen-xi-qi.md)
+  * [实现语法分析器和AST](llvmkai-fa-xin-yu-yan/shi-xian-yu-fa-fen-xi-qi-he-ast.md)
 
